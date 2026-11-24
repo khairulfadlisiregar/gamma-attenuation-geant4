@@ -1,0 +1,13 @@
+/run/initialize
+/control/verbose 1
+/run/verbose 1
+
+/attenuation/slab/material G4_Pb
+/attenuation/slab/thickness 2.0 cm
+
+/vis/open OGLSQt
+/vis/drawVolume
+/vis/scene/add/trajectories smooth
+/vis/scene/endOfEventAction accumulate
+
+/run/beamOn 20

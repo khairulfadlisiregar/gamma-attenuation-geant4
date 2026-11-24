@@ -1,0 +1,7 @@
+/run/initialize
+/control/verbose 0
+/run/verbose 0
+/attenuation/slab/material G4_Fe
+/analysis/setFileName attenuation_Fe_t7
+/attenuation/slab/thickness 7.0 cm
+/run/beamOn 10000

@@ -1,0 +1,7 @@
+/run/initialize
+/control/verbose 0
+/run/verbose 0
+/attenuation/slab/material G4_Al
+/analysis/setFileName attenuation_Al_t4
+/attenuation/slab/thickness 4.0 cm
+/run/beamOn 10000
